@@ -1,0 +1,29 @@
+{
+  "name": "japoapuntes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "buil": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thatvistuagain/japoapuntes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thatvistuagain/japoapuntes/issues"
+  },
+  "homepage": "https://github.com/thatvistuagain/japoapuntes#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "markdown-it": "^13.0.1",
+    "markdown-it-attrs": "^4.1.6",
+    "moment": "^2.29.4"
+  }
+}

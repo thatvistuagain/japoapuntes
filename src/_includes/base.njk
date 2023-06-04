@@ -1,0 +1,56 @@
+<!--
+この道や行く人なしに秋の暮れ
+-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#7e495e">
+    <title>{{ title }}</title>
+    <meta name="description" content="Apuntes sobre la lengua japonesa">
+    <meta name="keywords" content="Literatura, Idiomas, Japonés">
+    <!-- OG -->
+    <meta property="og:title" content="Inicio">
+    <meta property="og:description" content="Apuntes sobre la lengua japonesa">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="#">
+    <meta property="og:image:width" content="1776">
+    <meta property="og:image:height" content="999">
+    <!-- Twitter -->
+    <meta name="twitter:title" content="Inicio">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@a_vistu">
+    <meta name="twitter:description" content="Apuntes sobre la lengua japonesa">
+    <meta name="twitter:image" content="#">
+    <meta name="twitter:creator" content="@a_vistu">
+    <!-- CSS -->
+    <script src="/assets/funcion/tk.js" type="application/javascript" async></script>
+    <link rel="stylesheet" href="/style.css" type="text/css">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+</head>
+
+<body>
+    {% include 'header.njk' %}
+
+    <main id="{{ type }}">
+        <section>
+            <div class="hero">
+                <h1><span class="hero-text">{{ jptitle }}</span></h1>
+            </div>
+            <article>
+                {{ content | safe }}
+            </article>
+            {%- if type == 'leccion' -%}
+                {% include 'nav.njk' %}
+            {%- endif -%}
+        </section>
+    </main>
+    {%- if type == 'leccion' -%}
+        {% include 'print.njk' %}
+    {%- endif -%}
+</body>
+</html>

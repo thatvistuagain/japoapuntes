@@ -1,0 +1,20 @@
+---
+layout: 'base.njk'
+title: 'Gramática'
+jptitle: '文法'
+---
+
+<h1>Gramática</h1>
+    <p>Breves apuntes sobre las estructuras más básicas del japonés.</p>
+    <h2>Generalidades</h2>
+        <ul>
+            <li>Introducción a la gramática japonesa</li>
+            <li><a href="#">Glosario gramatical</a></li>
+        </ul>
+    <h2>Lecciones</h2>
+        <ol>
+        {%- for post in collections.gram -%}
+            <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+        {%- endfor -%}
+        </ol>
+
