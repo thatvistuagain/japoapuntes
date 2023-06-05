@@ -36,6 +36,9 @@
         --w: hsl(48, 60%, 98%);
         --destaque: hsl(24, 87%, 57%);
     }
+    .kan img {
+        filter: invert(1);
+    }
 }
 
 html {
@@ -269,7 +272,6 @@ a code {
 
 pre,
 textarea {
-    /* for code samples */
     font-size: .9em;
     color: inherit;
     line-height: inherit;
@@ -288,7 +290,6 @@ textarea {
 /* Tables */
 
 table {
-    margin: 2rem 0;
     border-collapse: collapse;
     border-bottom: 2px dotted var(--gris);
     width: 100%;
@@ -316,10 +317,22 @@ th {
 .table-box {
     max-width: 100%;
     overflow-x: auto;
+    margin: var(--interior) 0;
+}
+
+/* Kanji divs */
+
+.kan {
+    margin: var(--interior) 0;
+    padding: 0.5rem;
+    border: 1px solid var(--gris);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 }
 
 /* Style for notes */
-
 .note,
 .gramm,
 .adv {
@@ -434,7 +447,7 @@ input:checked+small {
 /* Figures */
 
 figure {
-    margin: 2em 0 1.5em 0;
+    margin: var(--interior) 0;
 }
 
 figure figcaption {
@@ -585,6 +598,7 @@ details summary::before {
 
 summary h3 {
     margin: 0;
+    line-height: unset;
 }
 
 details[open] summary::before {
