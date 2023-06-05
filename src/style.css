@@ -236,6 +236,16 @@ blockquote:before {
     display: block;
 }
 
+.vers {
+    font-variant: small-caps;
+    -moz-font-feature-settings: 'smcp';
+    -webkit-font-feature-settings: 'smcp';
+    -ms-font-feature-settings: 'smcp';
+    font-feature-settings: 'smcp';
+    letter-spacing: 0.03em;
+    text-transform: lowercase;
+}
+
 img,
 svg,
 video,
@@ -328,6 +338,7 @@ th {
     display: block;
     text-transform: uppercase;
     letter-spacing: 0.08rem;
+    line-height: 1.5;
     font-size: 14px;
     font-weight: 600;
     font-family: var(--sans);
@@ -351,6 +362,15 @@ th {
 .gramm::before {
     content: 'Gramática\0020\2022\0020文法';
     color: #229396;
+}
+
+.adv {
+	background: rgba(231,76,60,0.03);
+	border-left: 2px solid rgba(230,131,170,0.5);
+}
+.adv::before {
+    content: 'Atención\0020\2022\0020止まれ';
+    color: #E683AA;
 }
 
 /* Tar Secciones */
@@ -525,6 +545,9 @@ article h3 {
     font-weight: 400;
     text-transform: lowercase;
     font-variant-caps: small-caps;
+    letter-spacing: 0.04em;
+    margin: 1rem 0 0;
+    line-height: 1;
 }
 
 article time {

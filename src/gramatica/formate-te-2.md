@@ -4,7 +4,6 @@ date: 2021-02-12
 or: '1'
 ---
 
-<h1>Forma て (2): V–ている</h1>
 <p>Entre los usos de la forma て, destacan aquellos que se construyen sufijando el verbo auxiliar –いる.
     Para
     entender su uso hay que aclarar primero que los verbos en japonés indican tres valores básicos:</p>

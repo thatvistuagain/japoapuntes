@@ -1,0 +1,20 @@
+---
+layout: 'base.njk'
+title: 'Kanji'
+jptitle: '漢字'
+---
+
+<h1>Kanji</h1>
+    <p>Breves apuntes sobre las estructuras más básicas del japonés.</p>
+    <h2>Generalidades</h2>
+        <ul>
+            <li><a href="/kanji/introduccion-kanji/">Introducción a los kanji</a></li>
+            <li><a href="#">Lista general N5</a></li>
+        </ul>
+    <h2>Lecciones</h2>
+        <ol>
+        {%- for post in collections.kan -%}
+            <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+        {%- endfor -%}
+        </ol>
+
