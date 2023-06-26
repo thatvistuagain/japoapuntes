@@ -104,37 +104,43 @@ or: '1'
             <tr>
                 <td><ruby>持<rt>も</ruby>っている</td>
                 <td>tener</td>
-                <td>ソラさんはお<ruby>金<rt>かね</ruby>をたくさん<ruby>持<rt>も</ruby>ってます</td>
+                <td>ソラさんはお<ruby>金<rt>かね</ruby>をたくさん<ruby>持<rt>も</ruby>ってます。
+                <br>Sora tiene un montón de dinero.</td>
             </tr>
             <tr>
                 <td><ruby>知<rt>し</ruby>っている</td>
                 <td>conocer</td>
-                <td><ruby>山下<rt>やました</ruby><ruby>先生<rt>せんせい</ruby>は<ruby>母<rt>はは</ruby>を<ruby>知<rt>し</ruby>っています</td>
+                <td><ruby>山下<rt>やました</ruby><ruby>先生<rt>せんせい</ruby>は<ruby>母<rt>はは</ruby>を<ruby>知<rt>し</ruby>っています。<br>Conozco a la mamá del prof. Yamashita.</td>
             </tr>
             <tr>
                 <td><ruby>太<rt>ふと</ruby>っている</td>
                 <td>estar gordo</td>
-                <td>トムさんはちょっと<ruby>太<rt>ふと</ruby>っています</td>
+                <td>トムさんはちょっと<ruby>太<rt>ふと</ruby>っています。
+                <br>Tom está algo gordo.</td>
             </tr>
             <tr>
                 <td>やせている</td>
                 <td>estar delgado</td>
-                <td><ruby>私<rt>わたし</ruby>の<ruby>弟<rt>おとうと</ruby>はとてもやせています</td>
+                <td><ruby>私<rt>わたし</ruby>の<ruby>弟<rt>おとうと</ruby>はとてもやせています。
+                <br>Mi hermano menor está muy delgado.</td>
             </tr>
             <tr>
                 <td><ruby>着<rt>き</ruby>ている</td>
                 <td>llevar puesto/vestir</td>
-                <td>メアリーさんはＴシャツを<ruby>着<rt>き</ruby>ています</td>
+                <td>メアリーさんはＴシャツを<ruby>着<rt>き</ruby>ています。
+                <br>Mary trae puesto un <em>kimono</em>.</td>
             </tr>
             <tr>
                 <td><ruby>起<rt>お</ruby>きている</td>
                 <td>estar despierto</td>
-                <td>お<ruby>父<rt>とう</ruby>さんは<ruby>起<rt>お</ruby>きています</td>
+                <td>お<ruby>父<rt>とう</ruby>さんは<ruby>起<rt>お</ruby>きています。
+                <br>Mi papá está despierto.</td>
             </tr>
             <tr>
                 <td><ruby>住<rt>す</ruby>んでいる</td>
                 <td>vivir (en)</td>
-                <td><ruby>家族<rt>かぞく</ruby>は<ruby>東京<rt>とうきょう</ruby>に<ruby>住<rt>す</ruby>んでいます</td>
+                <td><ruby>家族<rt>かぞく</ruby>は<ruby>東京<rt>とうきょう</ruby>に<ruby>住<rt>す</ruby>んでいます。
+                <br>Mi familia vive en Tokio.</td>
             </tr>
         </tbody>
     </table>
