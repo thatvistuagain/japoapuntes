@@ -588,10 +588,10 @@ summary::-webkit-details-marker {
 }
 
 details summary::before {
-    content: '\25BA';
+    content: '\1433';
     position: absolute;
     left: -1.3rem;
-    top: 5px;
+    top: 4px;
     font-size: 70%;
     color: var(--dim);
 }
@@ -602,10 +602,10 @@ summary h3 {
 }
 
 details[open] summary::before {
-    content: '\25BC';
+    content: '\142F';
     left: -1.3rem;
-    top: 7px;
-    font-size: 68%;
+    top: 4px;
+    font-size: 70%;
     color: var(--destaque);
 }
 
