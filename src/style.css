@@ -21,7 +21,7 @@
     --interior: 1.5rem;
     --magral: 40rem;
     --prosa: 0.6px;
-    --serif: 'ten-mincho-text', 'Iowan Old Style', 'Palatino', 'Palatino Linotype', "Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", ui-serif, serif;
+    --serif: 'Source Serif 4', 'BIZ UDMincho', 'Iowan Old Style', 'Palatino', 'Palatino Linotype', "Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", ui-serif, serif;
     --sans: Seravek, 'Gill Sans', 'Gill Sans MT', 'Gill Sans Nova', Candara, "游ゴシック体", "Yu Gothic", "YuGothic", "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", system-ui, sans-serif;
     --print: 'Iowan Old Style', 'Palatino', 'Palatino Linotype', "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", "Times New Roman", ui-serif, serif;
 }
@@ -93,7 +93,7 @@ section {
 .hero-text {
     font-size: 90px;
     position: relative;
-    bottom: 3.8rem;
+    bottom: 3.4rem;
     color: var(--gris);
     font-feature-settings: 'palt' 1;
 }
