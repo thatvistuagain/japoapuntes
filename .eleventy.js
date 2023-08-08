@@ -4,6 +4,7 @@ moment.locale('es');
 module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy('./src/style.css');
+    eleventyConfig.addPassthroughCopy('./src/gfonts.css');
     eleventyConfig.addPassthroughCopy('./src/assets');
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
     

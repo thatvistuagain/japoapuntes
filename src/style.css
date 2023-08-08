@@ -5,15 +5,16 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-synthesis: none;
 
-    --texto: hsl(0, 0%, 7%);
+    --texto: hsl(40, 3%, 23%);
     --gris: hsl(48, 30%, 87%);
     --grisb: hsla(0, 0%, 100%, 0.2);
     --dim: hsl(48, 20%, 40%);
     --oscu: hsl(210, 7%, 17%);
     --sect: hsla(210, 7%, 17%, 0.4);
     --alt: hsl(336, 39%, 59%);
-    --bg: hsl(48, 60%, 98%);
+    --bg: hsl(20, 18%, 97%);
     --bg-alt: hsl(20, 62%, 68%, 0.1);
     --w: hsl(0, 0%, 100%);
     --destaque: hsl(24, 87%, 57%);
@@ -21,9 +22,8 @@
     --interior: 1.5rem;
     --magral: 40rem;
     --prosa: 0.6px;
-    --serif: 'Source Serif 4', 'BIZ UDMincho', 'Iowan Old Style', 'Palatino', 'Palatino Linotype', "Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", ui-serif, serif;
-    --sans: Seravek, 'Gill Sans', 'Gill Sans MT', 'Gill Sans Nova', Candara, "游ゴシック体", "Yu Gothic", "YuGothic", "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", system-ui, sans-serif;
-    --print: 'Iowan Old Style', 'Palatino', 'Palatino Linotype', "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", "Times New Roman", ui-serif, serif;
+    --cuerpo: 'Alegreya Sans', 'Noto Sans JP', Candara, "游ゴシック体", "Yu Gothic", "YuGothic", "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", system-ui, sans-serif;
+    --titular: 'Seravek', 'Gill Sans', 'Gill Sans MT', 'Gill Sans Nova', Candara, "游ゴシック体", "Yu Gothic", "YuGothic", "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", system-ui, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -36,17 +36,18 @@
         --w: hsl(48, 60%, 98%);
         --destaque: hsl(24, 87%, 57%);
     }
+
     .kan img {
         filter: invert(1);
     }
 }
 
 html {
-    font-size: 19px;
+    font-size: 20px;
 }
 
 body {
-    font: normal 400 1rem/1.6 var(--serif);
+    font: normal 400 1rem/1.6 var(--cuerpo);
     font-feature-settings: 'liga', 'clig', 'lnum';
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
@@ -101,7 +102,7 @@ section {
 /* ------- Header ------- */
 
 header {
-    font-family: var(--sans);
+    font-family: var(--titular);
     padding: 5vw 5vw 1vw 5vw;
     display: flex;
     flex-wrap: wrap;
@@ -297,7 +298,7 @@ table {
 
 thead,
 caption {
-    font-family: var(--sans);
+    font-family: var(--titular);
     border-bottom: 2px dotted var(--gris);
     text-align: left;
 }
@@ -353,8 +354,8 @@ th {
     letter-spacing: 0.08rem;
     line-height: 1.5;
     font-size: 14px;
-    font-weight: 600;
-    font-family: var(--sans);
+    font-weight: 400;
+    font-family: var(--cuerpo);
 }
 
 .note {
@@ -378,9 +379,10 @@ th {
 }
 
 .adv {
-	background: rgba(231,76,60,0.03);
-	border-left: 2px solid rgba(230,131,170,0.5);
+    background: rgba(231, 76, 60, 0.03);
+    border-left: 2px solid rgba(230, 131, 170, 0.5);
 }
+
 .adv::before {
     content: 'Atención\0020\2022\0020止まれ';
     color: #E683AA;
@@ -453,7 +455,7 @@ figure {
 figure figcaption {
     margin: 0.8em 0 0 0;
     font-size: .85em;
-    font-family: var(--sans);
+    font-family: var(--titular);
     opacity: .7;
 }
 
@@ -546,7 +548,7 @@ article h1,
 h2,
 h3,
 h4 {
-    font-family: var(--sans);
+    font-family: var(--titular);
 }
 
 article h2 {
@@ -624,8 +626,8 @@ ruby {
 }
 
 ruby>rt {
-    font-family: var(--sans);
-    font-size: 60%;
+    font-family: var(--cuerpo);
+    font-size: 55%;
 }
 
 /* ------- Images Grid ------- */
@@ -774,7 +776,7 @@ ruby>rt {
     }
 
     body {
-        font: normal 400 1rem/1.6 var(--serif);
+        font: normal 400 1rem/1.6 var(--cuerpo);
         font-feature-settings: 'liga', 'clig', 'lnum';
     }
 
@@ -805,7 +807,7 @@ ruby>rt {
     }
 
     body {
-        font: normal 400 1rem/1.5 var(--print);
+        font: normal 400 1rem/1.5 var(--cuerpo);
     }
 
     nav,
